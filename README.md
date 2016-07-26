@@ -5,21 +5,20 @@ Een aantal standaarden zijn gehanteerd tijdens het ontwikkelen van de API; denk 
 
 ## TODO
 Aan een aantal punten moeten nog voldaan worden voordat de ontwikkeling van de API volledig is. Dit zijn de volgende punten:
-- Update isReversed bij OrderDetails alleen wanneer isReversed op false staat
+- Update isReversed bij OrderDetails alleen wanneer isReversed op false staat (??)
 
 - Genereer bij een nieuwe Order een ExpectedDeliveryDate
 
 - Genereer bij een nieuwe Order de bijbehorende Status
 
+- Stel juiste Status-waardes in waarin sommige velden m.b.t. orders veranderd mogen worden (`OrdersController.PostValue`, zou werken, alleen juiste ids moeten bijgevoegd worden. Variabelen `statusATUOrderReceiver` en `statusATUOrderDetails`)
+
 - Maak (mogelijk) producten verwijderbaar/inactief-maakbaar
 
-- Stel juiste Status-waardes in waarin sommige velden m.b.t. orders veranderd mogen worden (`OrdersController.PostValue`, zou werken, alleen juiste ids moeten bijgevoegd worden. Variabelen `statusATUOrderReceiver` en `statusATUOrderDetails`)
 
 - Maak sommige velden veranderbaar in ProductsController.PostValue wanneer Stock = 0
 
 - Maak Product-packaging veranderbaar wanneer een nieuw product wordt aangelegd (`Product.CreateNewProduct`). Keuze moet gemaakt worden of dit doormiddel van een ID of door de velden correct aan te leveren gedaan wordt.
-
-- De volledige functionaliteit voor het aanmaken, aanpassen en uitlezen van retours. De classes staan in principe, alleen de functionaliteiten moeten aangemaakt worden.
 
 - Bij de livegang dient een nieuwe database-tabel aangemaakt worden, genaamt `api_logging` (zie SQL code voor het aanmaken van deze tabel)
 
