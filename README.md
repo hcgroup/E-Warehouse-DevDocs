@@ -11,8 +11,6 @@ Aan een aantal punten moeten nog voldaan worden voordat de ontwikkeling van de A
 
 - Maak (mogelijk) producten verwijderbaar/inactief-maakbaar
 
-- Maak sommige velden veranderbaar in ProductsController.PostValue wanneer Stock = 0
-
 - Maak Product-packaging veranderbaar wanneer een nieuw product wordt aangelegd (`Product.CreateNewProduct`). Keuze moet gemaakt worden of dit doormiddel van een ID of door de velden correct aan te leveren gedaan wordt.
 
 - Bij de livegang dient een nieuwe database-tabel aangemaakt worden, genaamt `api_logging` (zie SQL code voor het aanmaken van deze tabel)
