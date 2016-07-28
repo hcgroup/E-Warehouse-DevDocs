@@ -11,10 +11,7 @@ Aan een aantal punten moeten nog voldaan worden voordat de ontwikkeling van de A
 
 - Genereer bij een nieuwe Order de bijbehorende Status
 
-- Stel juiste Status-waardes in waarin sommige velden m.b.t. orders veranderd mogen worden (`OrdersController.PostValue`, zou werken, alleen juiste ids moeten bijgevoegd worden. Variabelen `statusATUOrderReceiver` en `statusATUOrderDetails`)
-
 - Maak (mogelijk) producten verwijderbaar/inactief-maakbaar
-
 
 - Maak sommige velden veranderbaar in ProductsController.PostValue wanneer Stock = 0
 
