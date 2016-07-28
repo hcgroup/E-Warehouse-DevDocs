@@ -5,8 +5,6 @@ Een aantal standaarden zijn gehanteerd tijdens het ontwikkelen van de API; denk 
 
 ## TODO
 Aan een aantal punten moeten nog voldaan worden voordat de ontwikkeling van de API volledig is. Dit zijn de volgende punten:
-- Update isReversed bij OrderDetails alleen wanneer isReversed op false staat (??)
-
 - Genereer bij een nieuwe Order een ExpectedDeliveryDate
 
 - Genereer bij een nieuwe Order de bijbehorende Status
